@@ -5,5 +5,5 @@ class Prueba:
     def primeraPrueba():
         pass
     
-def segundaPrueba():
-    pass
+    def segundaPrueba():
+        pass
