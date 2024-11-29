@@ -1,3 +1,4 @@
+#Métodos de Clase
 class Animall:
     
     cantidadAnimales = 0
