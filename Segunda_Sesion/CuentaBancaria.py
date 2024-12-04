@@ -21,3 +21,14 @@ class CuentaBancaria:
     
 cuentaBancaria1 = CuentaBancaria("Luis Guillermo", 1000000, 1234)
 
+print(cuentaBancaria1.titular)
+print(cuentaBancaria1._saldo)
+
+print(cuentaBancaria1.depositar(500000))
+print(cuentaBancaria1.depositar(500000))
+print(cuentaBancaria1.retirar(100000))
+print(cuentaBancaria1.retirar(100000))
+print(cuentaBancaria1.retirar(100000))
+print(cuentaBancaria1.retirar(100000))
+
+print(cuentaBancaria1.modificarClave(123456789))
