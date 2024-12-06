@@ -1,3 +1,5 @@
+# CLASES ABSTRACTAS EN PYTHON
+
 from abc import ABC, abstractmethod
 
 class Forma(ABC):
