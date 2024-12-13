@@ -1,4 +1,4 @@
-# Primer ejercicio de Composición
+# Segundo ejercicio de Composición
 class Tarea:
     def __init__(self):
         pass
