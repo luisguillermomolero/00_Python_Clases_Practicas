@@ -1,3 +1,4 @@
+# Primer ejercicio de Composición
 class Motor:
     def __init__(self):
         pass
