@@ -1,11 +1,3 @@
-class Vehiculo:
-    def __init__(self, motor):
-        self.motor = motor
-    
-    def encender(self):
-        print("Encendiendo el vehiculo")
-        self.motor.iniciar()
-
 class Motor:
     def __init__(self):
         pass
@@ -23,6 +15,14 @@ class MotorElectrico(Motor):
         pass
     def iniciar(self):
         print("Motor eléctrico encendido..")
+        
+class Vehiculo:
+    def __init__(self, motor):
+        self.motor = motor
+    
+    def encender(self):
+        print("Encendiendo el vehiculo")
+        self.motor.iniciar()
     
 motor_gasolina = MotorGasolina()
 motor_electrico = MotorElectrico()
