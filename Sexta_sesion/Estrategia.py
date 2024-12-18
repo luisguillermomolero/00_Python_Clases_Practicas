@@ -27,7 +27,6 @@ class DescuentoFijo(EstrategiaDescuento):
     def calcular(self, monto):
         return monto - self.montoDescuento
 
-
 class Pedido:
     def __init__(self, monto, estrategiaDescuento: EstrategiaDescuento):
         self.monto = monto
